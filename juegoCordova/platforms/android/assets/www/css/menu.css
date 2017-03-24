@@ -1,0 +1,56 @@
+@font-face {
+            font-family: "danube";
+            src: url(../Font/DANUBE__.TTF) format("truetype");}
+  
+#menu{
+  /*  text-align: center;
+    left: 50%;*/
+}
+
+h1{
+    color: red;
+    font-size: 50px;
+    font-family: "danube";
+}
+        
+.Boton_Menu{
+    -webkit-transition: border-radius 1s, color 1s;
+    font-family: "danube";
+    font-size: 15px;
+    color: #EEE;
+    margin: 5px;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+            
+    background-color: goldenrod;
+    text-shadow: 0px 0px 8px white;
+            
+    border:1px solid #dedede;
+    border-radius: 3px;
+    text-decoration: none;
+            
+    border-color: #8dc5da #76b7cf #63abc7;
+    box-shadow: 0px 3px 5px rgba(255,255,255,0.5);
+            
+}
+        
+.Boton_Menu:hover{
+    border-radius: 20px;
+    text-shadow: 0px 0px 50px white;
+    color: white;
+}
+        
+.Boton_Menu:active{
+    text-shadow: 0px 0px 20px #00FF00;
+}
+        
+.hidden{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.frame{
+    position: absolute;
+}      
